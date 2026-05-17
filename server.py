@@ -92,5 +92,9 @@ async def download_images(
         return updated.model_dump(mode="json")
 
 
-if __name__ == "__main__":
+def main() -> None:
     mcp.run()
+
+
+if __name__ == "__main__":
+    main()
